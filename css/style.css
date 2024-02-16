@@ -1,0 +1,72 @@
+/***********************************************/
+
+/**************fonts***************/
+@font-face {   
+    font-family: titulosecciones;
+    src: url(../font/Anton.ttf);
+}
+@font-face {   
+    font-family: textonormal;
+    src: url(../font/RobotoCondensed-Bold.ttf);
+}
+
+
+
+
+/**************************sizing******************/
+.w-35{
+    width: 35%;
+}
+.w-10{
+    width: 10%;
+}
+.mb-8{margin-bottom: 8em;}
+
+
+/**********************colors **************************/
+.bg-salmon{
+    background-color: rgb(255, 158, 148);
+}
+.card:hover{
+    box-shadow: 3px 3px 10px lightgray;
+
+}
+.text-azul{
+    color: #00008B;
+}
+.bg-red{
+    background-color: #FF0000;
+}
+.color-text{
+    color:#FFFFFF ;
+}
+.carousel-caption {
+    background-color: rgba(128, 128, 128, 0.506);
+
+}
+#trigger {
+    cursor: pointer;
+}
+#trigger:hover{
+    opacity: 0.75;
+}
+
+/**************************hero*************************/
+#hero{
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+}
+/*****************************font*********************************/
+.titulo{
+    font-family: titulosecciones;
+}
+.text-normal{
+    font-family: textonormal;
+    color: white;
+}
+/*************************TEXTOADICIONAL****************************************/
+.additional-text {
+    display: none;
+}
+/************************CENTRAR ACCORDION ***************************************/
