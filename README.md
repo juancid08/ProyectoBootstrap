@@ -39,7 +39,7 @@ Sobre ella  he colocado un Call to Action en el cual pones 'Haz clic para salvar
 </p>
 
 <h3>Introducción</h3>
-<img src="./img/spider3" alt="imagen de hero section" style="width:50%">
+<img src="./img/spider3.jpg" alt="imagen de hero section" style="width:50%">
 <p>He puesto un texto breve sobre la introducción de Spider-man, en el cual explico brevemente de lo que va.Y abajo he hecho carousel. </p>
 <h3>Origen</h3>
 <img src="./img/harryOsborn.jpeg" alt="Imagen de harryOsborn" style="width:50%" >
