@@ -47,7 +47,7 @@ Sobre ella  he colocado un Call to Action en el cual pones 'Haz clic para salvar
 <h3>Cómic</h3>
 <p>Aquí he hecho algo parecido a lo de arriba lo único que he explidado sobre el cómic, de manera que la explicación la he puesto encima de la imagen</p>
 <h3>Películas</h3>
-<img src="./img/card1.jpg" alt="imagen de card" style="width:50%">
+<img src="./img/Card1.jpg" alt="imagen de card" style="width:50%">
 <p>He puesto card, donde explico las películas de Spider-man, y lugo la disposición que he utilizado es de 4 en 4 cards en ordenador, en tablets un poco grandes 3 3 1 card para que no quedara apretadas, en talets normales o un poco más pequeña de 2 en 2 card y por último en móvil de 1 en 1 card..</p>
 <h3>Protagonistas</h3>
 <img src="./img/tobey-marey.jpg" alt="imagen peter" style="width:50%">
