@@ -3,16 +3,68 @@
 /**************fonts***************/
 @font-face {   
     font-family: titulosecciones;
-    src: url(../font/Anton.ttf);
+    src: url(../font/velcro.regular.ttf);
 }
 @font-face {   
     font-family: textonormal;
+    src: url(../font/sf-action-man.regular.ttf);
+}
+@font-face {   
+    font-family: textocontacoto;
     src: url(../font/RobotoCondensed-Bold.ttf);
 }
+/*********************FOOTER ICONOS ******************/
 
+footer {
+    background-color: rgb(53, 52, 52);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.useful-links {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+.useful-links li {
+    margin-bottom: 10px;
+}
+.useful-links a {
+    color: white;
+    text-decoration: none;
+}
+        
+footer .fa {
+    padding: 15px 10px;
+    font-size: 1.5em;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius:50%;
+}
+/**********************FOOTER********************/            
+footer a {
+    color:white;
+    text-decoration: none;}
+footer .fa-facebook {
+    background-color:#3B5998
+}
+      
+footer .fa-twitter {
+    background-color:#55ACEE ;
+}
+      
+footer .fa-whatsapp {
+    background-color: #25D366;
+}
+      
+footer .fa-instagram {
+    background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+}
+/*********************************************OCULTARVALIDACION*****************************/
 
-
-
+.form-text { visibility:hidden;}
 /**************************sizing******************/
 .w-35{
     width: 35%;
@@ -60,13 +112,85 @@
 /*****************************font*********************************/
 .titulo{
     font-family: titulosecciones;
+    font-size: 4em;
+}
+.titulo-card{
+    font-family: titulosecciones;
+    font-size: 1.3em;
 }
 .text-normal{
     font-family: textonormal;
     color: white;
+    font-size: 1.1em;
+}
+.text-normal-accordion{
+    font-family: textonormal;
+    color: white;
+    font-size: 1.1em;
+}
+.text-contacto{
+    font-family: textocontacto;
+    color: rgb(69, 69, 69);
+    font-size: 1.1em;
+}
+.titulo-contacto{
+    font-family: textocontacto;
+    color: rgb(223, 20, 20);
+    font-size: 3.5em;
 }
 /*************************TEXTOADICIONAL****************************************/
 .additional-text {
     display: none;
 }
-/************************CENTRAR ACCORDION ***************************************/
+/************************RESPONSIVE FONT ***************************************/
+@media only screen and (width<=900px) {
+    .titulo{
+        font-size: 3em;
+    }
+    .titulo-card{
+        font-size: 1.1em;
+    }
+    .text-normal{
+        font-size: 0.9em;
+    }
+    .text-normal-accordion{
+
+        font-size: 0.8em;
+    }
+    .text-contacto{
+        font-size: 0.9em;
+    }
+    .titulo-contacto{
+        font-size: 3em;
+    }
+
+}
+@media only screen and (width<=400px) {
+    .titulo{
+        font-size: 2.5em;
+    }
+    .titulo-card{
+        font-size: 0.9em;
+    }
+    .text-normal{
+        font-size: 0.8em;
+    }
+    .text-normal-accordion{
+
+        font-size: 0.6em;
+    }
+    .text-contacto{
+        font-size: 0.8em;
+    }
+    .titulo-contacto{
+        font-size: 2.5em;
+    }
+}
+@media only screen and (width<=778px) {
+    #hero{
+        
+        background-image: url(../img/hero-mivil.jpeg);
+        height: 50%;
+        
+    }
+}
