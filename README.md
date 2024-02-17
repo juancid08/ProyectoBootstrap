@@ -52,7 +52,7 @@ Sobre ella  he colocado un Call to Action en el cual pones 'Haz clic para salvar
 <h3>Protagonistas</h3>
 <img src="./img/tobey-marey.jpg" alt="imagen peter" style="width:50%">
 <p>Aqí lo que he hecho básicamente es utilizar un accordion en el cual pongo los nombres los protagonistas y al pinchar te sale de lo que actua y una foto de el.</p>
-<h3>Contaco</h3>
+<h3>Contacto</h3>
 <p>Aquí pongo un apartado por si e usuario quiere contactarse conmigo, y lo que pongo es nombre, apellidos , email y un hueco para que escriba el email.</p>
 <h2 id="estilo">Estilo de la página</h2>
 <h3>Paleta de colores</h3>
