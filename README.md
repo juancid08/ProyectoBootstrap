@@ -30,14 +30,10 @@
   <li>Contacto</li>
   <li>Footer</li>
   </ul>
-  <p>Sin embargo tengo 4 subpáginas que están divididas cada una en 2 secciones:</p>
-  <ul>
-  <li>Sinopsis</li>
-  <li>Personajes</li> 
-  </ul>
 
 <h3>Hero Section</h3>
-<img src="./img/strangerfondo.png" alt="imagen de hero section" style="width:50%">
+<img src="./img/hero-mivil.jpeg" alt="imagen de hero section" style="width:50%">
+<img src="./img/background.png" alt="imagen de hero section" style="width:50%">
 <p>He utilizado una imagen de fondo tomada de pinterest que se adapta fácilmente a diferentes dispositivos como PC, tablets , móviles...<br>
 Sobre ella  he colocado un Call to Action en el cual pones 'Viaje a lo desconocido', porque pensaba que queda bien con mi página ya que es de Stranger Tnhings.<br>
 </p>
