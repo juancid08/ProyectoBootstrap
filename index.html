@@ -18,11 +18,11 @@
           
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="./img/logo.jpg" class="w-35" alt="logo Black Mirror"></a>
-          <!-- hamburguer icon-->
+          
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <!-- menu links that collapse when viewpoer is narrow-->
+          
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -53,10 +53,9 @@
         </div>
       </nav>
     </section>
-      <!-- hero section con background-image-->
     <section>
       <header id="hero" class="vh-100 container d-flex justify-content-center align-items-end">
-        <button class="btn btn-light mb-8">Haz clic para salvar el día.</button>
+        <a href="#intro"><button class="btn btn-light mb-8">Haz clic para salvar el día.</button></a>
       </header>
     </section>
     <!--  introducción-->
@@ -429,6 +428,10 @@
                 <label for="email" class="form-label text-contacto">Email: </label>
                 <input onclick="resetear('email')" type="text" class="form-control" id="email" name="email" aria-describedby="emailHelp">
                 <div id="emailHelp" class="form-text text-danger ">Formato de correo erróneo</div>
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label text-contacto">Mensaje:</label>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
               </div>
     
               <button type="submit" class="btn btn-primary btn-block">Enviar</button>
