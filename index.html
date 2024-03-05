@@ -58,6 +58,7 @@
         <a href="#intro"><button class="btn btn-light mb-8">Haz clic para salvar el día.</button></a>
       </header>
     </section>
+    <br>
     <!--  introducción-->
     <section id="intro" class="p-5">
       <h1 class="display-1 text-center fw-bold text-azul mb-5 titulo">Introducción</h1>
@@ -121,6 +122,7 @@
           </div>
         </div>
       </div>
+      <br><br>
     </section>
       <!--Origen-->
     <section id="origen">
@@ -141,6 +143,7 @@
           </div>
         </div>
       </div>
+      <br><br>
     </section>
     <!--COMIC-->
     <section id="comic">
@@ -162,6 +165,7 @@
           </div>
         </div>
       </div>
+      <br><br><br><br>
     </section>
     <!--PELICULAS-->
     <section id="peliculas">
@@ -259,6 +263,7 @@
         </div>
       </div>
     </div>
+    <br><br>
     </section>
     <!--protagonistas-->
     <section id="Protagonistas">
@@ -402,6 +407,7 @@
           </div>
         </div>
       </div>
+      <br><br>
     </section>
       <br><br>
     <section id="Contacto">
@@ -425,20 +431,23 @@
               </div>
     
               <div class="mb-3">
-                <label for="email" class="form-label text-contacto">Email: </label>
-                <input onclick="resetear('email')" type="text" class="form-control" id="email" name="email" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text text-danger ">Formato de correo erróneo</div>
+                <label for="email" class="form-label text-contacto">Email: <span class="text-danger">*</span></label>
+                <input onclick="resetear('email')" type="text" class="form-control" id="email" name="email" placeholder="obligatorio" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text text-danger ">Formato de correo erróneo o no está relleno</div>
               </div>
               <div class="mb-3">
-                <label for="mensaje" class="form-label text-contacto">Mensaje:</label>
-                <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
-              </div>
+                <label for="mensaje" class="form-label text-contacto">Mensaje:<span class="text-danger">*</span></label>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="4" ></textarea>
+                <div id="mensajeHelp" class="form-text text-danger">Mensaje obligatorio</div> 
+            </div>
+            
     
               <button type="submit" class="btn btn-primary btn-block">Enviar</button>
             </form>
           </div>
         </div>
       </div>
+      <br><br><br>
     </section>
     <br><br>
     <!--FOOTER-->
@@ -459,10 +468,10 @@
               <div class="col-md-6 col-lg-4">
                   <h3>Acerca de nosotros:</h3>
                   <ul class="useful-links">
-                      <li><a href="#intro" class="text-white">Incio</a></li> 
+                      <li><a href="#intro" class="text-white">Inicio</a></li> 
                       <li><a href="#Contacto" class="text-white">Ayuda</a></li>
-                      <li><a href="Creditos.html" class="text-white">Creditos</a></li>
-                  </ul>
+                      <li><a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="text-white">Créditos</a></li>
+                    </ul>
                   
               </div>
               <div class="col-md-12 col-lg-4">
@@ -472,7 +481,22 @@
           </div>
       </div>
   </footer>
-  
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Créditos</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Este proyecto ha sido realizado con fines educativos.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
   </section>
   
 </div>
