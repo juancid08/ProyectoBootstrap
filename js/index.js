@@ -58,7 +58,14 @@ function validacion() {
 
   return correcto;
 }
+
+
+
+
 function resetear(id) {
   document.getElementById(id + "Help").style.visibility = "hidden";
   document.getElementById(id).style.borderColor = "lightgray";
+  let mensajeInput = document.getElementById(id);
+  let mensajeHelp = document.getElementById(id + 'Help');
+
 }
